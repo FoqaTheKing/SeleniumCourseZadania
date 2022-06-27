@@ -1,0 +1,32 @@
+Feature: Searching for a phrase in google
+
+Scenario: Successfully searching for "Kittens" in google
+
+Given: Google main page
+When: User inserted phrase "Kitten" in google search bar
+Then: User sees pictures of kittens
+
+
+Feature: Signing in to Coders Lab
+
+Scenario: Successful sign in to Coders Lab
+
+Given: Coders Lab main page
+When: User clicks on "Sign in"
+And: User inserts correct credentials
+AND: user clicks "sign in" button
+Then: User is signed in
+
+
+Feature:Opening the first presentation from java prework from Test Automation Engineer course
+
+Scenario: Successfully opening the first presentation from java prework from Test Automation Engineer course starting from main page
+
+Given: User signed in
+AND: User is assigned to the course
+AND: User is on main page of Coders Lab
+WHEN: User clicks on Test Automation Engineer course
+AND: User clicks on Prework
+AND User Clicks on "Wstęp do kursu"
+THEN: First presentation from java prework from Test Automation Engineer course is opened
+
